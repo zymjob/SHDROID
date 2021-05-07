@@ -1,0 +1,61 @@
+/* #176cd7 */
+body{
+    font-size: 14px; color: #999; line-height: 2;
+}
+.equipRight2{
+    height: auto; background: #fff;
+}
+.productList{
+    display: flex;
+}
+.productList img{
+    width: 35%; padding-right: 30px;
+}
+.productList>div{
+    padding: 50px 30px 0 80px;
+}
+.equipName{
+    font-size: .4rem; color: #444; line-height: 45px; margin-bottom: 30px; 
+} 
+.productList p{
+    text-indent: 32px; font-size: .25rem;
+}
+.detailText{
+    width: 100%; margin: 0 auto;
+}
+.Characteristics{
+    display: flex; margin-top: 20px; border-bottom: 1px solid #ddd; padding-bottom: 20px;
+}
+.Characteristics:nth-of-type(1){
+    margin-top: 30px; padding-left: 30px;
+}
+.Characteristics li{
+    list-style-type: disc; font-size: .25rem;
+}
+.Characteristics ul:nth-of-type(2), .Characteristics ul:nth-of-type(3){
+    display: none;
+}
+.proTittle{
+    font-size: 16px; color: #444; font-weight: 700; border-left: 5px solid #176cd7; text-indent: 15px; height: 25px; line-height: 25px; width: 120px;
+}
+table{
+    border-collapse:collapse;
+}
+td{
+    border: 1px solid #ddd; text-indent: 20px; line-height: 30px; font-size: .25rem;
+}
+tr td:nth-of-type(1){
+    width: 160px;
+}
+tr td:nth-of-type(2){
+    width: 500px;
+}
+.list01{
+    font-size: 18px; color: #666; display: flex; height: 60px; line-height: 60px; flex-wrap:wrap; border-top: 1px solid #eee; border-bottom: 1px solid #eee; margin-top: 60px; 
+}
+.list01 li{
+ flex: 1; text-align: center; cursor: pointer; background: #f5f5f5;
+}
+.list01 li:nth-of-type(1){
+    background: #176cd7; color: #fff;
+}

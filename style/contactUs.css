@@ -1,0 +1,75 @@
+/* #176cd7 */
+.contactBox{
+    width: 100%; background: #F6F6F6; padding-top: 30px;
+    /* box-shadow: 0 0px 5px rgb(0 0 0 / 10%);  */
+}
+.contact{
+    width: 185px; height: 70px; line-height: 70px; text-align: center; margin: 0 auto; background: #176cd7; color: #fff; font-size: 18px; 
+}
+.companyBox, .supportBox{
+    width: 100%; background: #F6F6F6; overflow: hidden;
+}
+.company{
+    width: 70%; height: 100%; margin: 50px auto; display: flex; 
+}
+.contactLeft{
+    width: 32%; height: 100%; background: #eaeaea; padding: 30px;font-size: 14px;
+    color: #666666;
+    line-height: 36px;
+}
+.contactLeft>p{
+    width: 100%; line-height: 50px; color: #333333; border-bottom: 1px solid #cecece; font-size: 24px;
+}
+.conLefCon{ margin:25px 0;}
+.conLefCon p{ padding-left:28px; background-position:left 7px; background-repeat:no-repeat;}
+.conAdd{ background-image:url(../assets/conIco1.png);}
+.conAdd2{ background-image:none;}
+.conCode{ background-image:url(../images/conIco2.png);}
+.conTel{ background-image:url(../assets/conIco3.png);}
+.conFax{ background-image:url(../assets/conIco3.png);}
+.ftWeb1{ background-image:url(../assets/ftWeb.png);}
+.conEmail{ background-image:url(../assets/ftEmail.png);}
+.conLefWx{ font-size:0; margin:0 -10px; text-align:center;}
+.conLefWx li{ width:40%; margin: 0 auto; font-size:14px; color:#666666; line-height:36px;}
+.conLefWx li img{ margin:0 auto; width: 100%;}
+.conLefWx li p{ text-align:center;}
+.contactRight{
+    height: 570px; flex-grow: 1; border: 10px solid #fff; margin-left: 50px;
+}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+
+.supportCon{
+    width: 85%; margin: 30px 10%; font-size: .4rem;
+}
+.supportBox p{
+    line-height: 30px; text-align: center;
+}
+
+form{
+    display: flex; width: 60%; margin-top: 20px; font-size: 13px;
+}
+form span{
+    width: 75px; display: inline-block; word-spacing: 8px;
+}
+.supportLeft div{
+    line-height: 40px;
+}
+.call input{
+    width: 500px; border: 1px solid #ddd; height: 25px; border-radius: 5px;
+}
+.call textarea{
+    width: 500px; border: 1px solid #ddd; border-radius: 5px; margin-top: 8px; margin-left: 4px;
+}
+.supportRight{
+    flex: 1; margin-top: 25px;
+}
+.supportRight img{
+    width: 200px
+}
+.submit{
+    display: flex; justify-content: center; align-items: center; margin-top: 20px;
+}
+button{
+    border-radius: 3px; border: 0; background: #176cd7; width: 60px; height: 30px; color: #fff;
+}

@@ -1,0 +1,66 @@
+body{
+    font-size: .3rem;
+}
+.crumbs{
+    width: 90%; height: 80px; line-height: 80px; margin-left: 10%; color: #999; font-size: .26rem;
+}
+.crumbs a{
+    color: #176cd7;
+}
+.schemeBox{
+    width: 80%; margin: 30px 10%; height: auto;
+}
+.schemeHeader{
+    display: flex; justify-content: space-between;
+}
+.schemeHeader img{
+    width: 25%; margin: 0px 50px 0 0;
+}
+.schemeTab{
+    font-size: 18px; color: #666; display: flex; height: 60px; line-height: 60px;flex-wrap: wrap; border-top: 1px solid #eee;border-bottom: 1px solid #eee; margin-top: 60px;
+}
+.schemeTab li{
+    flex: 1; text-align: center; cursor: pointer; background: #f5f5f5; border-right: 1px solid #ddd;
+}
+.schemeTab a{
+    color: #666;
+}
+.schemeTab li:nth-of-type(1){
+    background: #176cd7; color: #fff;
+}
+.schemeTab li:nth-of-type(1) a{
+    color: #fff;
+}
+.schemeOverview{
+    display: flex; margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 30px;
+}
+.title{
+    width: 200px; height: 60px; text-align: center; font-size: 22px; line-height: 60px; border-left: 5px solid #176cd7; border-right: 5px solid #176cd7; margin-right: 80px;
+}
+.content1{
+    flex: 1; text-indent: 35px; line-height: 30px; color: #666;font-size: .3rem;
+}
+.content1 img{
+    width: 85%
+}
+.content2{
+    text-indent: 0;
+}
+.content2 li{
+    list-style-type: disc;
+}
+.apply{
+    display: flex; text-indent: 0; 
+}
+.apply li{
+    display: flex; flex-direction: column; justify-content: center; width: 20%;
+}
+.apply li p:nth-of-type(2){
+    line-height: 15px;
+}
+.apply img{
+    width: 90px; margin: 0 auto 10px;
+}
+.apply{
+    text-align: center;
+}
